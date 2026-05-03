@@ -51,7 +51,7 @@ Accuracy is controlled by six attributes, listed below alongside with their effe
 
 {% include attributes.html filter=page.attributes %}
 
-The accuracy stat on the weapon card is controlled by weapon spread, calculated as <code class="latex-fallback">-6.667 * Spread + 100</code>.
+The accuracy stat on the weapon card is controlled by weapon spread, calculated as <code class="latex-fallback">-15/3 * Spread + 100</code>.
 Crosshair size is controlled by a combination of the weapon spread and the current cluster range.
 Recoil is controlled by impulse accuracy and sometimes burst impulse, based on how you're firing.
 
